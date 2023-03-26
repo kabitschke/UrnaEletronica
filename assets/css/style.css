@@ -407,17 +407,20 @@ body{
     .botao--branco{   
         width: 35px;
         height: 20px;   
-        font-size: 7px;       
+        font-size: 7px;  
+        font-weight: bold;      
     }
     
     .botao--corrigi{  
         width: 35px;  
-        font-size: 7px;        
+        font-size: 7px;    
+        font-weight: bold;     
     }
     
     .botao--confirma{   
         width: 37px;       
-        font-size: 7px;        
+        font-size: 7px;    
+        font-weight: bold;     
     }
 
     .d-1-1{
@@ -525,19 +528,21 @@ body{
         .botao--branco{   
             width: 35px;
             height: 20px;   
-            font-size: 7px;       
+            font-size: 7px;
+            font-weight: bold;        
         }
         
         .botao--corrigi{  
             width: 35px;  
-            font-size: 7px;        
+            font-size: 7px;    
+            font-weight: bold;     
         }
         
         .botao--confirma{   
             width: 35px;       
             font-size: 7px;  
             padding: 2px;
-                
+            font-weight: bold;                 
         }
     
         .d-1-1{

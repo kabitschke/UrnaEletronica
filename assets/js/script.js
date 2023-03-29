@@ -16,12 +16,28 @@ const container = select('.d-1');
 const votou = select('.votou');
 const btnConfirma = select('.botao--confirma');
 const containerBarra = select('.container-barra');
-
+const partidos = select('.partidos');
 let encerrou = false;
 let etapaAtual = 0;
 let numero = '';
 let votoBranco = false;
 let votos = [];
+
+function cola() {
+  let conteudo = '';
+  let i = 0;
+  for (i; i < etapas.length; i++) {
+    let cargo = etapas[i].titulo;
+    let pc = etapas[i].candidatos;
+    pc.forEach((el) => {
+      el.nome;
+      conteudo += `<p><hr>${cargo}: ${el.nome} ( ${el.numero} ) </p>`;
+    });
+  }
+  partidos.innerHTML = `<h3 style="text-align: center;">Candidatos</h3> ${conteudo}`;
+}
+
+cola();
 
 function comecarEtapa() {
   let etapa = etapas[etapaAtual];
